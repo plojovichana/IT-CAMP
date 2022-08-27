@@ -7,6 +7,7 @@
         border-radius: 15px;
         padding: 10px;
         margin: 20px;
+
 }
 .h2{
         /* float: left; */
@@ -19,7 +20,7 @@
         border-radius: 15px;
         margin: 30px;
         display: flex;
-}
+} 
 .div1 img{
         width: 80px;
 }
@@ -63,10 +64,11 @@ body{
         padding-top: 20px;
 
 }
+
 .ul{
         margin: 30px;
         padding: 3px;
         color: rgb(45, 51, 146);
         padding-bottom: 30px;
-        list-style-type:circle;
+        list-style-type: circle;
 }
