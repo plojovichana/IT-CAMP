@@ -86,6 +86,7 @@ body{
 .a{
         display: flex;
         flex-direction: column;
+        color: rgb(214, 213, 213);
 }
 .icon{
         margin-top: 20px;
@@ -100,6 +101,7 @@ body{
         align-items: center;
 }
 .card{
+        font-size: 17px;
         padding: 20px;
         border: 0px solid;
         width: 325px;
@@ -123,10 +125,11 @@ body{
 .a2:hover{
         color: #7a9dfc ;
         background-color: white;
+        border: 3px black;
 }
 .dropbtn {
         background-color: #4877fb;
-        color: white;
+        color: rgb(214, 213, 213);
         padding: 16px;
         font-size: 16px;
         border: none;
@@ -135,6 +138,7 @@ body{
 .dropdown {
         position: relative;
         display: inline-block;
+        position: sticky;
 }
 
 .dropdown-content {
@@ -163,4 +167,16 @@ body{
 
 .dropdown:hover .dropbtn {
         background-color: #4877fb;
+}
+.card:hover{
+        width: 325px;
+        height: 295px;
+        border-top: 3px solid #648dff; 
+        font-size: 17px;
+}
+.a:hover{
+        color: white;
+}
+.dropbtn:hover{
+        color: white;
 }
